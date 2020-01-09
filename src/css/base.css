@@ -30,17 +30,13 @@ header a:hover.btn-donate {
     text-decoration: none;
 }
 
-header nav .navbar-nav {
-    text-align: right;
-}
-
 header nav .navbar-nav li {
     padding: 10px 1em;
 }
 
 header nav .navbar-nav li.nav-item a.nav-link,
 header nav .navbar-nav li.nav-item a:visited.nav-link {
-    display: block;
+    display: inline-block;
     padding: 0;
     color: #1b1f22;
     text-decoration: none;
