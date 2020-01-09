@@ -5,6 +5,8 @@ body {
 header {
     font-family: "Oswald", "Helvetica Neue", helvetica, arial, sans-serif;
     color: #1b1f22;
+    font-size: 1.125em;
+    letter-spacing: 1px;
 }
 
 header h1 {
@@ -18,8 +20,6 @@ header a:visited.btn-donate {
     background-color: #9e0022;
     border: 1px solid #9e0022;
     color: #fff;
-    font-size: 1.125em;
-    letter-spacing: 1px;
     line-height: 2;
     padding: 5px 25px;
 }
@@ -28,6 +28,33 @@ header a:hover.btn-donate {
     background-color: #000;
     border: 1px solid #000;
     text-decoration: none;
+}
+
+header nav .navbar-nav {
+    text-align: right;
+}
+
+header nav .navbar-nav li {
+    padding: 10px 1em;
+}
+
+header nav .navbar-nav li.nav-item a.nav-link,
+header nav .navbar-nav li.nav-item a:visited.nav-link {
+    display: block;
+    padding: 0;
+    color: #1b1f22;
+    text-decoration: none;
+    transition: color 0.2s;
+    border-bottom: 3px solid #fff;
+}
+
+header nav .navbar-nav li.nav-item a:hover.nav-link {
+    color: #1b1f22;
+}
+
+header nav .navbar-nav li.nav-item a:hover.nav-link,
+header nav .navbar-nav li.nav-item a.active {
+    border-bottom: 3px solid #9e0022;
 }
 
 main section.jumbotron {
