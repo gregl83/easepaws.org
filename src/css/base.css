@@ -1,0 +1,46 @@
+body {
+    font-family: "Open Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+header {
+    font-family: "Oswald", "Helvetica Neue", helvetica, arial, sans-serif;
+    color: #1b1f22;
+}
+
+header h1 {
+    display: inline-block;
+}
+
+header a.btn-donate,
+header a:hover.btn-donate,
+header a:visited.btn-donate {
+    display: inline-block;
+    background-color: #9e0022;
+    border: 1px solid #9e0022;
+    color: #fff;
+    font-size: 1.125em;
+    letter-spacing: 1px;
+    line-height: 2;
+    padding: 5px 25px;
+}
+
+header a:hover.btn-donate {
+    background-color: #000;
+    border: 1px solid #000;
+    text-decoration: none;
+}
+
+main section.jumbotron {
+    background-color: #333;
+    color: #fff;
+}
+
+a,
+a:hover,
+a:visited {
+    color: #9e0022;
+}
+
+a:hover {
+    text-decoration: underline;
+}
