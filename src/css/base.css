@@ -49,7 +49,7 @@ header nav .navbar-nav li.nav-item a:hover.nav-link {
 }
 
 header nav .navbar-nav li.nav-item a:hover.nav-link,
-header nav .navbar-nav li.nav-item a:active.nav-link,
+header nav .navbar-nav li.nav-item.active a.nav-link,
 header nav .navbar-nav li.nav-item a.active {
     border-bottom: 3px solid #9e0022;
 }
